@@ -1,0 +1,8 @@
+WHILE true DO
+  IF next-is-empty THEN
+    turnAround
+    move
+  ELSE
+    infect
+  END IF
+END WHILE

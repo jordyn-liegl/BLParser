@@ -1,0 +1,11 @@
+WHILE true DO
+  IF next-is-empty THEN
+    move 
+  ELSE
+    IF next-is-enemy THEN 
+      Flee
+    ELSE 
+      Avoid
+    END IF 
+  END IF
+END WHILE

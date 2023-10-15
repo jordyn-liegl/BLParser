@@ -1,0 +1,10 @@
+WHILE true DO
+  two
+  IF next THEN
+    move
+  FLSE
+    infect
+  END IF
+  turnRight
+  infect
+END WHILE
