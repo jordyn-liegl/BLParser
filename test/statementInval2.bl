@@ -1,0 +1,6 @@
+WHILE true THEN
+  turnLeft
+  IF next-is-empty DO
+    move
+  END IF
+END WHILE

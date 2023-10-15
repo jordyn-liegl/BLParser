@@ -1,0 +1,8 @@
+WHILE true D
+  move
+  I next-is-empty THEN
+    move
+  D IF
+  turnLeft
+  infect
+END WHE

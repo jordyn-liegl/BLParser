@@ -1,0 +1,9 @@
+infect
+WHILE true DO
+  move
+  IF next-is-empty THEN
+    move
+  END IF
+  turnLeft
+  infect
+END WHILE
